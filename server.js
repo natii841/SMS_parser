@@ -12,7 +12,7 @@ bot.on('text', (ctx) => {
   console.log('Received message:', rawText);
 
   if (rawText.startsWith('/')) {
-    ctx.reply('Paste your sms link.');
+    ctx.reply('Paste the damn link.');
     return;
   }
 
